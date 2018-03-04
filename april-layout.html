@@ -1,14 +1,8 @@
 <style>
-#main {
-	margin-top: 0px;
-	margin-left: 0px;
-	background: none;
-	border: none;
+#header, #footer, .sidebar, #ban, .contentHeader, .contentModuleHeaderAlt, .content table table img, table table table table table {
+	display: none;
 }
-table table table table table { 
-display: none; 
-} 
-
+	
 table table table table {
     width: 220px;
 }
@@ -18,10 +12,30 @@ background-image: url("https://i.imgur.com/b0wX9RE.png");
 	background-repeat: none;
 	background-color: #fcfafc;
 }
+	
 BODY, font, td, table {
 	font: 10px tahoma;
 }
 
+/* side bar */
+table table table table {
+	background: none;
+	margin-top: 110px;
+	margin-left: 950px;
+	z-index: 6;
+	font: normal 11px arial;
+	letter-spacing: none;
+	color: #767676;
+}
+
+
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+	background: none;
+	border: none;
+}
+	
 b {
 	color: #5a6eef;
 	text-transform: uppercase;
@@ -46,65 +60,16 @@ h1 {
 
 }
 
-table table table table font {
-	font: normal 11px arial;
-	letter-spacing: none;
-	color: #767676;
-}
-
-table table table table {
-background: none;
-margin-top: 110px;
-margin-left: 950px;
-z-index: 6;
-}
-
-div.links {
-background: #000;
-margin-left: 950px;
-margin-top: 0px;
-z-index: 6;
-filter:alpha(opacity=90);
-opacity: 0.9;
-}
-
-
 .content table p {
 	display: block;
 }
 table, td {
 	background: none;
 }
-#header, #footer, .sidebar, #ban, .contentHeader, .contentModuleHeaderAlt, .content table table img {
-	display: none;
-}
+
 .content table .content table img {
 	display: inline;
 }
-
-
-
-.layoutimg {
-top: 0px;
-left: 0px;
-z-index: -1;
-padding: 0px;
-border: 0px;
-color: #0d0b16;
-}
-
-div.council {
-    left: 200px;
-    top: 355px;
-    height: 225px;
-    width: 259px;
-    z-index: 2;
-    color: #000;
-    padding: 10px;
-    overflow: auto;
-    text-align: justify;
-}
-
 
 #nav {
 	top: 0px;
@@ -123,7 +88,7 @@ div.council {
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
-text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 a {
@@ -136,18 +101,24 @@ color: #fff!important;
 	letter-spacing: 2px;
 }
 
-.content p {
-margin-top: -50px;
+div.info {
+	left: 200px;
+	top: 355px;
+	height: 225px;
+	width: 259px;
+	z-index: 2;
+	color: #000;
+	padding: 10px;
+	overflow: auto;
+	text-align: justify;
 }
 
-.council p {
-margin-top: 0px;
+	
+.info p {
+	margin-top: 0px;
 }
 
 </style>
-
-
-
 
 <div id="nav" style="position: absolute;"> 
 <br><br><a href="/~muhowebbie">Webbie</a>
@@ -155,7 +126,7 @@ margin-top: 0px;
 <br><br><a href="/~muhoportal">Portal</a>
 </div>
 
-<div class="council" style="position: absolute;"> 
+<div class="info" style="position: absolute;"> 
 <h1>welcome to the crazy</h1>
 <p>Welcome to <i>mugen no hoshi</i> or <b>muxho</b> for short! We're an anime and manga themed, chat based guild and we tend to be pretty chill, <b>talking about anything and everything</b>, putting our anime/manga theme to the test and allowing even the <i>most casual fam</i> to join our humble (but crazy) abode.</p><p> But worry not as we're total weebs at our core and love the occasional heated discussion of which anime is the best or whose tastes is more trash. </p>
 
