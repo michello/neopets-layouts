@@ -18,3 +18,9 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 
 ## portfolio
 <img src="https://i.gyazo.com/eac86823947a71c7d259bc6bdf049301.png">
+
+## memeories page
+<img src="https://i.gyazo.com/e32d237c514f4c54753365b669775b1f.png">
+
+## snapshots
+<img src="https://i.gyazo.com/3c5a1a62cb3d61062a667157f62cd665.png">
