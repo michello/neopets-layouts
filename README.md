@@ -16,11 +16,11 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 ## neopets guild guide
 <img src="https://i.gyazo.com/176ec3f10685f1aae6a7f034d292b60c.png">
 
-## portfolio
+## portfolio - <a href="http://www.neopets.com/~Maneso">[ link ]</a>
 <img src="https://i.gyazo.com/eac86823947a71c7d259bc6bdf049301.png">
 
-## memeories page
+## memeories page - <a href="http://www.neopets.com/~Cagetuda">[ link ]</a>
 <img src="https://i.gyazo.com/e32d237c514f4c54753365b669775b1f.png">
 
-## snapshots
+## snapshots - <a href="http://www.neopets.com/~ibel35_2">[ link ]</a>
 <img src="https://i.gyazo.com/3c5a1a62cb3d61062a667157f62cd665.png">
