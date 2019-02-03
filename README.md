@@ -22,5 +22,5 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 ## memeories page - <a href="http://www.neopets.com/~Membo">[ link ]</a>
 <img src="https://i.gyazo.com/e32d237c514f4c54753365b669775b1f.png">
 
-## snapshots - <a href="neopets.com/~Mythology">[ link ]</a>
+## snapshots - <a href="http://www.neopets.com/~Mythology">[ link ]</a>
 <img src="https://i.gyazo.com/3c5a1a62cb3d61062a667157f62cd665.png">
