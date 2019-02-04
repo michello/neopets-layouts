@@ -23,4 +23,6 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 <img src="https://i.gyazo.com/e32d237c514f4c54753365b669775b1f.png">
 
 ## snapshots - <a href="http://www.neopets.com/~Mythology">[ link ]</a>
-<img src="https://i.gyazo.com/3c5a1a62cb3d61062a667157f62cd665.png">
+<img src="https://i.gyazo.com/8c49359d7dfad15d5697cf158273cc3d.png">
+<img src="https://i.gyazo.com/aeadfb854709ef20f2e97cf8e9cf1103.png">
+<img src="https://i.gyazo.com/28a4023b4d9ef712fcef0b49fcc78a4d.png">
