@@ -30,5 +30,5 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 ## sincerey me
 <img src="https://i.gyazo.com/9060bb848bdb2a87c508db53c2675214.png">
 
-## game nights
+## game nights - <a href="http://www.neopets.com/~wafflezzxx">[ link ]</a>
 <img src="https://i.gyazo.com/6b997fa916be28a7446b191102d52c93.png">
