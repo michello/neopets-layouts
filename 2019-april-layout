@@ -1,0 +1,159 @@
+<style>
+#main {
+	margin-top: 0px;
+	margin-left: 0px;
+	background: none;
+	border: none;
+}
+table table table table table { 
+display: none; 
+} 
+table table table table {
+    width: 220px;
+}
+BODY {
+background-image: url("https://i.imgur.com/ya69urG.png");
+	background-repeat: no-repeat;
+	background-color: #faf6f4;
+}
+BODY, font, td, table {
+	font: 10px tahoma;
+}
+b {
+	color: #786775;
+	text-transform: uppercase;
+}
+i {
+	font-family: georgia;
+	font-style: italic;
+	text-transform: lowercase;
+	font-weight: bold;
+	color: #EA396F;
+}
+h1 {
+	color: #F974BA;
+	font: 13px georgia;
+	text-transform: lowercase;
+	text-align: left;
+	letter-spacing: 5px;
+	height: 10px;
+	margin-bottom: 25px;
+}
+table table table table font {
+	font: normal 11px arial;
+	letter-spacing: none;
+	color: #767676;
+}
+table table table table {
+background: none;
+margin-top: 110px;
+margin-left: 762px;
+z-index: 6;
+}
+.content table p {
+	display: block;
+}
+table, td {
+	background: none;
+}
+#header, #footer, .sidebar, #ban, .contentHeader, .contentModuleHeaderAlt, .content table table img {
+	display: none;
+}
+.content table .content table img {
+	display: inline;
+}
+.layoutimg {
+top: 0px;
+left: 0px;
+z-index: -1;
+padding: 0px;
+border: 0px;
+color: #0d0b16;
+}
+div.council {
+    left: 406px;
+    top: -3px;
+    height: 278px;
+    width: 162px;
+    z-index: 2;
+    color: #767676;
+    padding: 10px;
+    overflow: auto;
+    text-align: justify;
+}
+#nav {
+	top: 0px;
+	left: 780px;
+	line-height: 5px;
+}
+#nav a {
+	font: normal 8px arial;
+	color: #F7F1F4!important;
+	background: #EA396F;
+	filter:alpha(opacity=60);
+	opacity: 0.6;
+	letter-spacing: 2px;
+	display: inline-block;
+	width: 114px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a {
+color: #fff!important;
+}
+#nav a:hover {
+	background: #000;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.content p {
+margin-top: -50px;
+}
+.council p {
+margin-top: 0px;
+}
+.username {
+float:right;
+}
+.username::after {
+clear:both;
+}
+input[type="submit"] {
+    margin-left: -105px;
+}
+	
+</style>
+
+
+
+
+<div id="nav" style="position: absolute;"> 
+<br><br><a href="/~muhowebbie">Webbie</a>
+<br><br><a href="/neoboards/topic.phtml?topic=159256807">Advertise</a>
+<br><br><a href="/~muhoportal">Portal</a>
+</div>
+
+<div class="council" style="position: absolute;"> 
+<h1>welcome to the crazy</h1>
+<p>Welcome to <i>mugen no hoshi</i> or <b>muxho</b> for short! We're an anime and manga themed, chat based guild and we tend to be pretty chill, <b>talking about anything and everything</b>, putting our anime/manga theme to the test and allowing even the <i>most casual fam</i> to join our humble (but crazy) abode.</p><p> But worry not as we're total weebs at our core and love the occasional heated discussion of which anime is the best or whose tastes is more trash. </p>
+
+
+<h1>news</h1>
+<p><b>03/05/18:</b> Hi everyone! New month, new layout and, yes, it's a pink one again. Pink layouts are just very cute and nice to make, okay?
+</p>
+<p>
+Aside from that, <a href="/">Dress to Impress</a> is back for this month so be sure to participate when you can! Speaking of participation, neomails were sent to those who are in danger of getting swept (sweeps will be done on <b>03/10</b>). Please notify us if you'd like to be excused for this month!</p>
+<p>
+We also have a new <i>muxho guide</i> and I implore everyone to check it out as it details about how the guild is like and all the resources we have! We're also implementing a new activeness policy so be sure to check it out~
+</p> <span class="username"><b>-michelle (mochadroppe)</b></span>
+
+
+</p>
+
+
+<h1 style="clear:both;">credit</h1>
+layout by <i>michelle (mochadroppe)</i>
+<br><i>violet evergarden</i> themed
+</div>
