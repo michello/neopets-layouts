@@ -35,3 +35,6 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 
 ## april 2019 layout
 <img src="https://i.gyazo.com/e866dcb77c8c4d1a144be7f521fdb1b0.png">
+
+## september 2019 layout
+<img src="https://i.gyazo.com/03bdd5c353ccd64fb953034a89174d05.jpg">
