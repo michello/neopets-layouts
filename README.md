@@ -45,3 +45,6 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 <img src="https://i.gyazo.com/691dcf71624aba9f43d8300303b31dd4.png">
 <img src="https://i.gyazo.com/03965f3615f9de091b6a9144cfd2d5b7.png">
 <img src="https://i.gyazo.com/f46647673d526bd7b2ee7f7ecc23ba96.png">
+
+## february 2021 layout
+<img src="https://i.gyazo.com/938b0834b92b0e9b4c869d6dd1b1866b.jpg">
