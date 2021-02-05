@@ -1,153 +1,172 @@
 <style>
-    .content table p {
-            display: block;
-        }
-        table, td {
-            background: none;
-        }
-        table table table table table, #header, #footer, .sidebar, #ban, .contentHeader, .contentModuleHeaderAlt, .content table table img {
-            display: none;
-        }
-        .content table .content table img {
-            display: inline;
-        }
-    
-    
-        p {
-            margin-top: -30px;
-        }
-    
-        #main {
-            margin-top: 0px;
-            margin-left: 0px;
-            background: none;
-            border: none;
-        }
-    BODY {
-        background-image: url(https://i.imgur.com/yv7ddFy.png);
-        background-repeat: no-repeat;
-        background-color: #bfb8cc;
+    #main {
+        margin-top: 0px;
+        margin-left: 0px;
+        background: none;
+        border: none;
         min-height: 950px;
     }
-        BODY, font, td, table {
-            font: 12px tahoma;
-        }
-        b {
-            color: #a93359;
-            text-transform: uppercase;
-        }
-        i {
-            font-family: georgia;
-            font-style: italic;
-            text-transform: lowercase;
-            font-weight: bold;
-            color: #a93359;
-        }
-        h1 {
-            color: #623364;
-            font: 20px georgia;
-            text-transform: lowercase;
-            text-align: left;
-            letter-spacing: 5px;
-            height: 10px;
-        }
-        table table table table {
-            width: 220px;
-            background: none;
-            margin-left: 900px;
-            margin-top: 250px;
-            z-index: 1000;
-            font: normal 11px arial;
-            letter-spacing: none;
-            color: #767676;
-        }
-        
-        .layoutimg {
-            top: 0px;
-            left: 0px;
-            z-index: -1;
-            padding: 0px;
-            border: 0px;
-            color: #0d0b16;
-        }
-        div.welcome {
-        left: 386PX;
-        top: 409px;
-        height: 451px;
-        width: 315px;
+    table table table table table { 
+    display: none; 
+    } 
+    table table table table {
+        background: none;
+        margin-top: 260px;
+        margin-left: 950px;
+        z-index: 6;
+    }
+    BODY {
+    background-image: url("https://i.imgur.com/nv0lTaS.png");
+        background-repeat: no-repeat;
+        background-color: #f4eff7;
+    }
+    BODY, font, td, table {
+        font: 15px tahoma;
+    }
+    b {
+        color: #971f74;
+    }
+    i {
+        font-family: georgia;
+        font-style: italic;
+        text-transform: lowercase;
+        font-weight: bold;
+        color: #7f5b88;
+    }
+    
+    h1 {
+        color: #971f74;
+        font: 20px georgia;
+        text-transform: lowercase;
+        text-align: left;
+        height: 10px;
+        margin-bottom: 25px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    table table table table font {
+        font: normal 14px arial;
+        color: #322436;
+    }
+    .content table p {
+        display: block;
+    }
+    table, td {
+        background: none;
+    }
+    #header, #footer, .sidebar, #ban, .contentHeader, .contentModuleHeaderAlt, .content table table img {
+        display: none;
+    }
+    .content table .content table img {
+        display: inline;
+    }
+    .layoutimg {
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        padding: 0px;
+        border: 0px;
+        color: #0d0b16;
+    }
+    div.council {
+        left: 385px;
+        top: 408px;
+        height: 470px;
+        width: 316px;
         z-index: 2;
-        color: #242f1e;
+        color: #000;
         padding: 10px;
         overflow: auto;
         text-align: justify;
     }
-    
-        .welcome p {
-            margin-top:0px;
-        }
-    
-        #news {
-            left: 250px;
-        }
-    
     #nav {
-        top: 500px;
-        left: 271px;
+        top: 340px;
+        left: 825px;
         line-height: 5px;
     }
-        #nav a {
-        font: normal 12px arial;
-        color: #F7F1F4!important;
-        opacity: 0.9;
+    
+    #nav a {
+        color: #9f257e!important;
+        line-height: 80px;
+    }
+    
+    .link {
+        font: normal 8px arial;
+        background: #b5accb;
+        border: 10px solid #b78eba;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
         letter-spacing: 2px;
         display: block;
-        margin: 2px;
+        width: 80px;
+        height: 80px;
         text-align: center;
         padding: 5px;
         text-decoration: none;
         text-transform: uppercase;
-        width: 100px;
-        border-bottom: 1px dotted #F7F1F4;
+        margin-bottom: 10px;
     }
-        #nav a:hover {
-            background: #70385e;
-            color: #fff;
-            letter-spacing: 2px;
-        }
-        a {color: #991b73!important;}
-        .council p {margin-top: 0px;}
-        input[type="submit"] {margin-left: -105px;}
-    </style>
     
-    <div id="nav" style="position: absolute;"> 
-        <a href="/~muhowebbie">Webbie</a>
-        <a href="/neoboards/topic.phtml?topic=160902882">Advertise</a>
+    .link:hover {
+        background: #fff;
+        letter-spacing: 2px;
+    }
+    a {
+    color: #fff!important;
+    }
+    .content p {
+    margin-top: -50px;
+    }
+    .council p {
+    margin-top: 0px;
+    }
+    .username {
+    float:right;
+    }
+    .username::after {
+    clear:both;
+    }
+    input[type="submit"] {
+        margin-left: -105px;
+    }
+        
+</style>
+    
+    
+    
+    
+<div id="nav" style="position: absolute;"> 
+    <div class="link">
+        <a href="/~Zypree">Webbie</a>
     </div>
-    
-    <div class="welcome" style="position: absolute;"> 
-        <h1>welcome to the crazy</h1>
-        <p>
-            Welcome to <i>mugen no hoshi</i> or <b>muxho</b> for short! We're an anime and manga themed, chat based guild and we tend to be pretty chill, <b>talking about anything and everything</b>, putting our anime/manga theme to the test and allowing even the <i>most casual fam</i> to join our humble (but crazy) abode.
-        </p>
-    
-        <h1>updates</h1>
-        <p>
-            <i>12/31/2020: </i> It only took us about an entire year and some more to update the guild layout but hey, better late than never.
+    <div class="link">
+        <a href="/">Advertise</a>
+    </div>
+</div>
+
+<div class="council" style="position: absolute;"> 
+    <h1>welcome!</h1>
+    <p>Welcome to <i>mugen no hoshi</i> or <b><span style="color:#6d556f;">muxho</span></b> for short! We're an anime and manga themed, chat based guild and we tend to be pretty chill, <b><span style="color:#6d556f;">talking about anything and everything</span></b>, putting our anime/manga theme to the test and allowing even the <i>most casual fam</i> to join our humble (but crazy) abode.</p><p> But worry not as we're total weebs at our core and love the occasional heated discussion of which anime is the best or whose tastes is more trash. </p>
+
+
+    <h1>news</h1>
+    <p>
+        <b><span style="color:#7f5b88;">02/04/21:</span></b> Apologies for any confusion with the guild going down! Hope it doesn't raise any alarms but rest assured, we're back and running now!
     </p>
     <p>
-    Regardless, thanks all for sticking with us over the year and past months! We know it's been a tough year but it's been a pleasure to still be in your company.
-    </p> 
-    <p>
-    Happy new years and here's to hoping that 2021 will be a really great one! 
+        That said, we naturally will remain how we have been functioning but we won't be rebuilding a lot of our previous legacy (i.e. the pages and activities we've had, etc). For more info, please do take a peek at our webbie which will be updated soon.
     </p>
     <p>
-            <b style=" float: right;">— michelle, rebecca, planet</b>
-        </p>
-    
-        <h1 style="padding-top:28px;">credit</h1>
-        <p>
-            layout by <i>michelle (myonigiri)</i> | <i>demon slayer</i> themed
-        </p>
-    </div>
-    
+        Stay warm and safe everyone!
+    </p>
+    <p>
+        <span class="username"><b><span style="color:#7f5b88;">-michelle, rebecca, and planet</span></b></span>
+    </p>
+
+
+    <h1 style="clear:both;">credit</h1>
+    layout by <i>michelle (myonigiri)</i>
+    <br><i>demon slayer</i> themed
+</div>
     
