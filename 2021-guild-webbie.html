@@ -2,36 +2,11 @@
     tbody {
         display: none;
     }
+
     body {
-        background-image: url('https://i.imgur.com/zd3JXnq.png');
+        background-image: url("http://i.imgur.com/zd3JXnq.png");
         background-repeat: repeat-x;
         background-color: #0f0b0b;
-    }
-    #main {
-        margin: 30px auto;
-        width: 800px;
-    }
-    .content {
-        margin-top: 30px;
-        min-height: 300px;
-        width: 700px;
-        padding: 50px;
-        font: 16px arial;
-        color: #443b30;
-        line-height: 20px;
-        background-image: url('https://i.imgur.com/8zeVoNF.png');
-        background-repeat: repeat;
-        opacity: 0.8;
-    }
-    .side-image {
-        display: inline-block;
-        width: 200px;
-    }
-    .text {
-        display: inline-block;
-        width: 450px;
-        margin-left: 50px;
-        top: -50px;
     }
 
     h1 {
@@ -54,40 +29,72 @@
         border-bottom: 2px dotted #7a4024;
     }
 
-    #pros .text {
-        margin-left: 0;
-        top: -196px;
+    i {
+        color: #7a4024;
+        font-weight: bold;
+        font-family: georgia;
+    }
+    #main {
+        margin: 30px auto;
+        width: 800px;
     }
 
-    #events, #join {
-        background: none;
+    .section {
+        margin: 30px 0;
+        min-height: 300px;
+        width: 700px;
+        padding: 50px;
+        font: 16px arial;
+        line-height: 20px;
         color: #a7a3a2;
+        background: none;
         overflow: auto;
     }
-
-
-    #join .side-image {
-        width: 400px;
+    
+    .section .image-content, .section .image-content-left {
+        width: 200px;
     }
 
-    #join .text {
-        top: 0px;
-        width: 250px;
+    .section .text-content-right, .section .text-content-left {
+        line-height: 20px;
+        width: 450px;
+    }
+    
+    .section .text-content-right, .section .image-content-right {
+        float: right;
+    }
+    
+    .section .text-content-left, .section .image-content-left {
+        float: left;
+    }
+    
+    .section .text-content-right, .section .image-content-right, .section .text-content-left, .section .image-content-left {
+        display: inline-block;
+    }
+
+    .transparent {
+        color: #443b30;
+        background-image: url("http://i.imgur.com/8zeVoNF.png");
+        background-repeat: repeat;
+    }
+    
+    .emoji {
+        height: 12px;
     }
 
     .council-member {
         width: 200px;
         display: inline-block;
         text-align: center;
-        margin-right:45px;
+        margin-right: 45px;
     }
 
     .council-member img {
         width: 100px;
     }
 </style>
-
-<div id="nav-bar" style="display:none;">
+    
+<div id="nav-bar" style="display: none;">
     <div id="nav-bar-content">
         <a href="#welcome">welcome</a>
         <a href="#events">sneak peeks</a>
@@ -96,124 +103,169 @@
         <a href="#pros">pros</a>
     </div>
 </div>
+
 <div id="main">
-    <img src="https://i.imgur.com/e9e5t1T.png">
-    <div id="welcome" class="content">
-        <img src="https://i.imgur.com/w3eLQgS.png" class="side-image">
-        <div class="text" style="position: relative;">
-            <h1>Welcome</h1>
+    <div id="hero">
+        <img src="http://i.imgur.com/e9e5t1T.png">
+    </div>
+
+    <div class="section transparent" id="welcome">
+        <div class="image-content-left">
+            <img src="http://i.imgur.com/w3eLQgS.png">
+        </div>
+        <div class="text-content-right">
+            <h1>
+                welcome
+            </h1>
             <p>
-                Mugen no Hoshi literally translates to <i>"star of infinity"</i>, but we took liberties to define it as "infinite number of stars." It refers to how much we have to deal with on an everyday basis, which can be rough. We understand! 
+                Mugen no Hoshi literally translates to "star of infinity", but we took liberties to define it as "infinite number of stars." It refers to how much we have to deal with on an everyday basis, which can be rough. We understand!
             </p>
             <p>
                 Thus, we hope for Mugen no Hoshi to offer as much escapism as anime or manga does!
             </p>
             <p>
-                Though we are anime/manga themed, we are chat based at our core. A lot of our conversations end up revolving around random topics such as discussing our favorite Christmas shows in the middle of January or lamenting over the recent advent of horribly soap opera-y teen drama adaptations.
+                Though we are anime/manga/gaming themed, we are chat based at our core. A lot of our conversations revolves around random topics such as discussing our favorite Christmas shows in the middle of January or lamenting over the recent advent of horribly soap opera-y teen drama adaptations.
             </p>
             <p>
                 Still unsure what it means to be in MuxHo? Take a look at <a href="#events">what we've done before</a> or <a href="#pros">what makes us awesome</a>.
             </p>
-            </div>
+        </div>
     </div>
-    <div id="events" class="content">
-        <img src="https://i.imgur.com/RWf5Dm9.png">
-        <h1>Sneak Peeks</h1>
+
+    <div class="section" id="events">
+        <img src="http://i.imgur.com/RWf5Dm9.png">
+        <h1>
+            sneak peeks
+        </h1>
         <p>
             Wondering what we have to offer? Here are some stuff we recently (and not so recently) did:
         </p>
         <ul>
             <li>
-                We threw a PPT party where we had to identify whether a given name belonged to a pasta dish or a famous artist, learned some random exciting dinosaur facts, and how to best purchase Japanese merchandise.
+                Threw a PPT party where we had to identify whether a given name belonged to a pasta dish or a famous artist, learned some random exciting dinosaur facts, and how to best purchase Japanese merchandise.
             </li>
             <li>
-                <i>Too</i> many streaming sessions where we watched random anime, cartoons, TV shows, and just almost everything. Fun fact: We started watching anime together <a href="/~muxhoshumi">since 2015</a>!
+                Streamed <i>too</i> many sessions where we watched random anime, cartoons, TV shows, and just almost everything. Fun fact: we started watching anime together <a href="/~muxhoshumi">since 2015</a>!
             </li>
             <li>
                 Tried out Genshin Impact together——we made far too many attempts jumping off of cliffs and swimming to the great beyond.
             </li>
             <li>
-                Written love letters to our anime waifus/husbandos and voted for the one that made our heart swoon the most.
+                Wrote love letters to our anime waifus/husbandos and voted for the one that made our heart swoon the most.
             </li>
             <li>
-                Had a very extensive conversation over what one of our members should get at Taco Bell.
+                Discussed very extensively over what one of our members should get at Taco Bell.
             </li>
         </ul>
-        <h1 style="text-align:right;">...and more!</h1>
+        <h1 style="text-align: right;">...and more!</h1>
         <p>
             We're always open to suggestions for what to do next! And the only way to find out what our next adventure is is to <a href="#join">join us.</a> ;)
         </p>
-        <img src="https://i.imgur.com/RWf5Dm9.png" style="float:right">
+        <img src="http://i.imgur.com/RWf5Dm9.png" style="float:right;">
     </div>
-    <div id="pros" class="content">
-        <div class="text" style="position: relative;">
-            <h1>Pros</h1>
+    
+    <div class="section transparent" id="pros">
+        <div class="text-content-left">
+            <h1>
+                pros
+            </h1>
             <p>
-                We're awesome and we'd love <i>you</i> to know why so you know exactly what kind of awesomeness you're getting into
+                We're awesome and we'd love <i>you</i> to know why so you know exactly what kind of awesomeness you're getting into:
             </p>
             <ul>
                 <li>
                     We don't do sweeps. Real life happens, and neo is dying. Tralala~
                 </li>
                 <li>
-                    <img src="http://images.neopets.com/neoboards/smilies/carrot.gif">. Just <img src="http://images.neopets.com/neoboards/smilies/carrot.gif"><img src="http://images.neopets.com/neoboards/smilies/carrot.gif">.<img src="http://images.neopets.com/neoboards/smilies/carrot.gif">.
+                    Everyone is a hoshi. No need to climb up the ranks, we leave that for work or school. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/glowing-star_1f31f.png" class="emoji"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/glowing-star_1f31f.png" class="emoji"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/glowing-star_1f31f.png" class="emoji">
                 </li>
                 <li>
-                    The guild is run by actual nobility. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/259/crown_1f451.png" style="height:12px">
+                    <img src="http://images.neopets.com/neoboards/smilies/carrot.gif">. Just <img src="http://images.neopets.com/neoboards/smilies/carrot.gif"><img src="http://images.neopets.com/neoboards/smilies/carrot.gif"><img src="http://images.neopets.com/neoboards/smilies/carrot.gif">. <i>Airi (airinu) approves.</i>
+                </li>
+                <li>
+                    The guild is run by actual nobility. <img src="http://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/259/crown_1f451.png" class="emoji">
+                </li>
+                <li>
+                    There is an ongoing speculation that <i>Hachi (ketchup547)</i> is actually a 90 year old grandfather pretending to be a young adult. <img src="https://emoji.gg/assets/emoji/3578_sus.png" class="emoji">
+                </li>
+                <li>
+                    Very, very WHOLESOME. <img src="https://emoji.gg/assets/emoji/9120_blobmeltsoblove.png" class="emoji"><img src="https://emoji.gg/assets/emoji/3372_Hearts.gif" class="emoji"><img src="https://emoji.gg/assets/emoji/3372_Hearts.gif" class="emoji">
+                </li>
+                <li>
+                    We can talk about absolutely <i>anything</i>, from sharing cool facts about dinos to exchanging yummy recipes—we have it all. It's a definite cure for boredom and you'll surely be 10000000x smarter by the end of the day.
+                </li>
+                <li>
+                    If you go on a hiatus for YEARS, the guild will still be there. Even if we have to rise from the ashes like a phoenix, we’ll always be here for you. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/230/fire_1f525.png" class="emoji"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/230/fire_1f525.png" class="emoji"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/230/fire_1f525.png" class="emoji">
+                </li>
+                <li>
+                    Our layouts are always very aesthetically pleasing. <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/230/sparkles_2728.png" class="emoji">
                 </li>
             </ul>
         </div>
-        <img src="https://i.imgur.com/3bnvM7m.png" class="side-image" style="margin-left:45px;">
+        <div class="image-content-right">
+            <img src="http://i.imgur.com/3bnvM7m.png">
+        </div>
     </div>
-    <div id="join" class="content">
-        <img src="https://images.gr-assets.com/hostedimages/1551229545ra/27122929.gif" class="side-image">
-        <div class="text" style="position: relative;">
-            <h1>Join Us</h1>
+
+    <div class="section" id="join">
+        <div class="image-content-left">
+            <img src="http://images.gr-assets.com/hostedimages/1551229545ra/27122929.gif" style="width:400px;">
+        </div>
+        <div class="text-content-right" style="width:250px;">
+            <h1>join us</h1>
             <p>
                 Convinced? We're <i>always</i> excited for another member to join our abode.
             </p>
-            <p style="text-align: center;">
+            <p style="text-align:center">
                 <a href="/guilds/guild.phtml?id=4183162"><img src="http://i.imgur.com/jeF54pK.png"></a>
                 <a href="/guilds/guild.phtml?id=4183162"><img src="http://i.imgur.com/a1SSXmt.gif"></a>
                 <a href="/guilds/guild.phtml?id=4183162"><img src="http://i.imgur.com/gHPfMWN.gif"></a>
             </p>
-            <img src="https://i.imgur.com/t4zS4hy.png">
+            <img src="http://i.imgur.com/t4zS4hy.png">
         </div>
-        
     </div>
-    <div id="contact" class="content">
-        <h1>Contact</h1>
+
+    <div class="section transparent" id="contact">
+        <h1>
+            contact
+        </h1>
         <p>
             Have any more questions? Feel free to contact these folks with any inquiries!
         </p>
         <div class="council">
-                <div class="council-member">
-                    <img src="https://i.imgur.com/u5GSRrF.png">
-                    <h1>
+            <div class="council-member">
+                <img src="http://i.imgur.com/u5GSRrF.png">
+                <h1>
+                    <a href="http://www.neopets.com/neomessages.phtml?type=send&amp;recipient=myonigiri&amp;subject=MuxHo+Inquiry">
                         michelle (myonigiri)
-                    </h1>
-                    <p>
-                        guild dictator, official lady, comp sci nerd
-                    </p>
-                </div>
-                <div class="council-member">
-                    <img src="https://i.imgur.com/dGTbrrj.png">
-                    <h1>
+                    </a>
+                </h1>
+                <p>
+                    guild dictator, official lady, comp sci nerd
+                </p>
+            </div>
+            <div class="council-member">
+                <img src="http://i.imgur.com/dGTbrrj.png">
+                <h1>
+                    <a href="http://www.neopets.com/neomessages.phtml?type=send&amp;recipient=bamba4life&amp;subject=MuxHo+Inquiry">
                         rebecca (bamba4life)
-                    </h1>
-                    <p>
-                        science nerd, travel enthusiast, indie gamer
-                    </p>
-                </div>
-                <div class="council-member" style="margin-right: 0;">
-                    <img src="https://media.discordapp.net/attachments/797557341171220491/807082017023590420/tumblr_3e90d9049dce8bf17ae6f3307cd8d656_e7c69e3a_400.png">
-                    <h1>
+                    </a>
+                </h1>
+                <p>
+                    science nerd, travel enthusiast, indie gamer
+                </p>
+            </div>
+            <div class="council-member" style="margin-right: 0;">
+                <img src="http://media.discordapp.net/attachments/797557341171220491/807082017023590420/tumblr_3e90d9049dce8bf17ae6f3307cd8d656_e7c69e3a_400.png">
+                <h1>
+                    <a href="http://www.neopets.com/neomessages.phtml?type=send&amp;recipient=cretaceouz&amp;subject=MuxHo+Inquiry">
                         planet (cretaceouz)
-                    </h1>
-                    <p>
-                        weeb, shiny hunter, princess
-                    </p>
-                </div>
+                    </a>
+                </h1>
+                <p>
+                    weeb, shiny hunter, princess
+                </p>
+            </div>
         </div>
     </div>
 </div>
