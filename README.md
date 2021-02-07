@@ -42,9 +42,9 @@ place to keep my code for neopets guild layouts for an anime/manga themed, chat 
 ## 2021 webbie layout - [link](https://mochadroppe.me/neopets-layouts/2021-guild-webbie.html)
 <img src="https://i.gyazo.com/1c982dd9d3f56e00192215129e304ec8.jpg">
 <img src="https://i.gyazo.com/878d182e6d85cbe522522133a803f3e4.png">
-<img src="https://i.gyazo.com/691dcf71624aba9f43d8300303b31dd4.png">
+<img src="https://i.gyazo.com/428b8507c6159ab39411d4afc757756a.png">
 <img src="https://i.gyazo.com/03965f3615f9de091b6a9144cfd2d5b7.png">
-<img src="https://i.gyazo.com/f46647673d526bd7b2ee7f7ecc23ba96.png">
+<img src="https://i.gyazo.com/7fc04648a6c160aa485c151db2c881bb.png">
 
 ## february 2021 layout
 <img src="https://i.gyazo.com/938b0834b92b0e9b4c869d6dd1b1866b.jpg">
